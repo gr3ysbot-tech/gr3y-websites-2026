@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domain Tools &laquo; JulianBen.com</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a href="../index.html" class="site-title">JulianBen.com</a>
+  <p class="tagline">MX, SPF, DMARC, DKIM and WHOIS for any domain, in one lookup</p>
+  <nav><a href="../index.html">&larr; All Posts</a></nav>
+</header>
+<main class="tool-main">
+  <form class="tool-form" id="lookupForm">
+    <div class="tool-form-row">
+      <input class="tool-input" type="text" id="domainInput" placeholder="example.com" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <button class="tool-submit" type="submit" id="submitBtn">Look up</button>
+    </div>
+    <button type="button" class="advanced-toggle" id="advancedToggle">DKIM selector not detected automatically? Override it</button>
+    <div class="advanced-row" id="advancedRow" hidden>
+      <span class="advanced-label">selector._domainkey.&lt;domain&gt;</span>
+      <input class="selector-input" type="text" id="selectorInput" placeholder="e.g. google, s1, mandrill" autocomplete="off" autocapitalize="off" spellcheck="false">
+    </div>
+  </form>
+
+  <div class="error-box" id="errorBox" hidden></div>
+  <div id="results"></div>
+
+  <p class="static-note">
+    Runs entirely in your browser &mdash; no server involved. MX, SPF, DMARC and DKIM come from real DNS
+    lookups via Cloudflare's public DNS-over-HTTPS resolver, including every <code>include:</code> and
+    <code>redirect=</code> SPF pulls in &mdash; expanded recursively, with a running count against the
+    RFC&nbsp;7208 10-lookup limit a real mail server enforces. WHOIS data comes from RDAP, the modern
+    HTTPS-based replacement for the WHOIS protocol; real WHOIS itself needs a raw network connection no
+    browser can make, so a handful of registries that haven't published an RDAP server (.io and .co
+    among them) won't return anything here &mdash; that's a gap in the registry's own service, not a
+    failed lookup.
+  </p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

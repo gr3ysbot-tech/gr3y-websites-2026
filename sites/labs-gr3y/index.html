@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gr3ylabs — Building the future of content</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="logo"><img src="logo.png" alt="gr3ylabs" style="height:38px;width:auto;vertical-align:middle;"></a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="badge">🧪 Labs</div>
+      <h1>Building the<br><span class="gradient-text">future of content.</span></h1>
+      <p class="hero-sub">We build AI-powered tools and systems that capture, distribute, and monetize live content at scale.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">Explore Projects</a>
+        <a href="#about" class="btn-ghost">Learn More →</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="container">
+      <div class="stat">
+        <div class="stat-num">35+</div>
+        <div class="stat-label">Streamers Monitored</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">24/7</div>
+        <div class="stat-label">Autonomous Operation</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">AI</div>
+        <div class="stat-label">Powered Pipeline</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">∞</div>
+        <div class="stat-label">Scale</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-label">WHAT WE'RE BUILDING</div>
+      <h2>Active Projects</h2>
+      <div class="project-grid">
+        <div class="project-card featured">
+          <div class="card-tag">LIVE</div>
+          <div class="card-icon">📡</div>
+          <h3>Twitchy</h3>
+          <p>AI-powered Twitch and Kick clip capture system. Monitors streamers 24/7, detects hype moments in real-time via chat velocity and audio analysis, and automatically clips and distributes content to YouTube. Every clip credits and links its source channel. Streamers can opt out at any time &mdash; <a href="optout.html">see our opt-out policy</a>.</p>
+          <div class="card-tags">
+            <span>AI</span><span>Automation</span><span>Content</span>
+          </div>
+        </div>
+        <div class="project-card featured">
+          <div class="card-tag">LIVE</div>
+          <div class="card-icon">📈</div>
+          <h3>QuantGenius</h3>
+          <p>Autonomous neural network trading system. GRU ensemble models trained on BTC and equities, running live paper trading with regime-gated allocation and real-time portfolio management.</p>
+          <div class="card-tags">
+            <span>ML</span><span>Finance</span><span>Neural Nets</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="card-tag">COMING SOON</div>
+          <div class="card-icon">🎬</div>
+          <h3>TikTok Pipeline</h3>
+          <p>Automated vertical video distribution. Same clip intelligence as Twitchy, formatted and optimized for TikTok's algorithm at scale.</p>
+          <div class="card-tags">
+            <span>TikTok</span><span>Automation</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="card-tag">COMING SOON</div>
+          <div class="card-icon">🤖</div>
+          <h3>Agent Stack</h3>
+          <p>Multi-agent AI infrastructure for autonomous content creation, research, and distribution. Self-healing, self-updating, always on.</p>
+          <div class="card-tags">
+            <span>AI Agents</span><span>Infrastructure</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <div class="section-label">WHO WE ARE</div>
+        <h2>Labs, not a startup.</h2>
+        <p>gr3ylabs is an independent technology lab focused on building AI-native systems for content, media, and finance. We move fast, automate everything, and build in public.</p>
+        <p>Our stack is built around autonomous agents, real-time data pipelines, and machine learning — running 24/7 with minimal human intervention.</p>
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+      </div>
+      <div class="about-visual">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">twitchy — agent</span>
+          </div>
+          <div class="terminal-body">
+            <div class="t-line"><span class="t-dim">$</span> <span class="t-cmd">./twitchy --monitor</span></div>
+            <div class="t-line t-green">✓ Connected to Twitch IRC</div>
+            <div class="t-line t-green">✓ Monitoring 35 streamers</div>
+            <div class="t-line t-yellow">⚡ Hype detected: KaiCenat (score: 87.3)</div>
+            <div class="t-line">  → Waiting 5s reaction delay...</div>
+            <div class="t-line t-green">✓ Clip captured: 30s @ 1080p</div>
+            <div class="t-line t-green">✓ Queued for YouTube upload</div>
+            <div class="t-line t-dim blink">█</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-label">GET IN TOUCH</div>
+      <h2>Let's build together.</h2>
+      <p>Interested in what we're building? Have a project in mind?</p>
+      <a href="mailto:hello@gr3y.io" class="btn-primary btn-large">hello@gr3y.io</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">gr3ylabs</div>
+      <div class="footer-links">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="optout.html">Streamer Opt-Out</a>
+        <a href="mailto:hello@gr3y.io">Contact</a>
+      </div>
+      <div class="footer-copy">© 2026 gr3ylabs. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
