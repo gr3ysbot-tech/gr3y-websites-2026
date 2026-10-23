@@ -72,3 +72,22 @@ These are new designs. Existing repositories and custom domain DNS remain untouc
 Each website can be deployed separately: copy the relevant folderâ€™s `index.html` plus `assets/` into a dedicated repository root, change `../assets/` to `assets/`, and replace relative family links with your confirmed production URLs. Add the appropriate CNAME file and configure DNS only when ready to replace the existing sites. The gr3ylabs production domain must be confirmed first.
 
 Typography uses Google Fonts with system fallbacks; all artwork is local CSS, with no stock images, tracking, or paid dependencies. Includes keyboard focus states, mobile menus, reduced-motion support, semantic landmarks, and native FAQ disclosure controls.
+
+
+## Family maintenance (October 2026)
+
+Impeccable is installed in the maintainer's local Codex skills directory. It is design tooling, not a production dependency. PRODUCT.md records the confirmed purpose; .impeccable/config.json records the user's code-first workflow. Each deployed site carries its own family.css so independent publishing continues to work. Keep these copies synchronized when changing family typography or interaction rules; preserve each site's palette and product-specific styling.
+
+The first maintenance pass unifies typography and focus treatment, restores the content lab's mobile navigation, respects reduced motion there, and repairs Capital's narrow-screen budget study. JulianBen's imported articles now contain their article bodies rather than old WordPress navigation, comment forms, and duplicate page shells. Local image references point to the existing imported files. Article prose remains unchanged.
+
+Before publishing the legacy capital site, reconcile its existing CNAME (gr3ycapital.com) with the no-custom-domain entry in sites.json. It overlaps the primary capital domain; do not publish it as a second owner of that domain. No domain or deployment settings were changed during maintenance.
+
+Run `python scripts/check_sites.py` before previewing or publishing: it checks all HTML files for local asset/link integrity, placeholder image sources, and page landmarks. External services need separate live verification. Some original archive image sources were placeholders; recovered assets are used where unambiguous, and 25 unresolved screenshots are explicitly marked for restoration.
+
+### Main-site visual redesign
+
+The three primary sites now use new layouts and self-hosted fonts through assets/redesign.css and assets/redesign.js. These files are identical copies in gr3ycapital, gr3ylabs, and gr3y-io; preserve that parity when changing the family system. The earlier assets/style.css and family.css remain available but are not loaded by these redesigned homepages. Preview at http://localhost:4173/gr3ycapital/, /gr3ylabs/, and /gr3y-io/ when serving sites/ as the root. Family links stay in the local preview on localhost; published pages retain their production URLs.
+
+### Approved scene heroes
+
+The three main homepages now implement the user-approved architectural, workbench, and workplace scenes. assets/scene-heroes.css supplies the overlay and mobile crop behavior; each site ships its own optimized assets/images/hero-scene.webp and hero-scene-960.webp. Adjacent JSON files retain generation prompts. All headings and controls are HTML. The approved mockup and asset manifest are retained in .impeccable/. No publication or domain changes are included.

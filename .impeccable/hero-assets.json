@@ -1,0 +1,44 @@
+[
+  {
+    "site": "gr3ycapital",
+    "asset": "sites/gr3ycapital/assets/images/hero-scene-960.webp",
+    "bytes": 81870,
+    "provenance": "sites/gr3ycapital/assets/images/hero-scene-960.webp.json",
+    "prompt": "Create ONE wide landscape hero BACKGROUND PHOTOGRAPH only, using the TOP gr3ycapital panel of the reference as the precise visual direction. Reproduce the beautiful cobalt blue architectural atrium, pale curved concrete forms, ascending stone stairs and brushed silver spiral ribbon/staircase, olive tree at right, daylight and rich dimensional shadows. Full bleed 16:9 composition. Keep the LEFT 43% mostly deep cobalt wall with subdued texture and lighting, generously clear for white HTML headline and navigation to be overlaid later. Architecture and silver spiral concentrated center and right. Wide photographic lens, exquisite architectural visualization, physically believable concrete and metal, premium editorial photography. The reference contains three website mockups; output ONLY the architectural scene from the top one, expanded to fill this single image. REMOVE ALL TEXT, wordmarks, logos, letters, navigation, buttons, borders and UI. Do not include the other two panels. No people. Match the reference atmosphere and material quality closely."
+  },
+  {
+    "site": "gr3ycapital",
+    "asset": "sites/gr3ycapital/assets/images/hero-scene.webp",
+    "bytes": 247062,
+    "provenance": "sites/gr3ycapital/assets/images/hero-scene.webp.json",
+    "prompt": "Create ONE wide landscape hero BACKGROUND PHOTOGRAPH only, using the TOP gr3ycapital panel of the reference as the precise visual direction. Reproduce the beautiful cobalt blue architectural atrium, pale curved concrete forms, ascending stone stairs and brushed silver spiral ribbon/staircase, olive tree at right, daylight and rich dimensional shadows. Full bleed 16:9 composition. Keep the LEFT 43% mostly deep cobalt wall with subdued texture and lighting, generously clear for white HTML headline and navigation to be overlaid later. Architecture and silver spiral concentrated center and right. Wide photographic lens, exquisite architectural visualization, physically believable concrete and metal, premium editorial photography. The reference contains three website mockups; output ONLY the architectural scene from the top one, expanded to fill this single image. REMOVE ALL TEXT, wordmarks, logos, letters, navigation, buttons, borders and UI. Do not include the other two panels. No people. Match the reference atmosphere and material quality closely."
+  },
+  {
+    "site": "gr3ylabs",
+    "asset": "sites/gr3ylabs/assets/images/hero-scene-960.webp",
+    "bytes": 80158,
+    "provenance": "sites/gr3ylabs/assets/images/hero-scene-960.webp.json",
+    "prompt": "Create ONE wide landscape photographic hero BACKGROUND image only, matching the MIDDLE gr3ylabs panel of the reference. A warm independent creative technology workbench: striking lime green translucent modular desktop computer tower, brushed aluminum details, monitor showing a simple green sculptural abstract object with NO readable text, actual keyboard, sketch notebook, small potted plant, pencil cup with orange detail, tactile wooden desk and workshop pegboard. Daylight and beautiful believable material detail, cinematic design studio still life. Wide 16:9 composition. The LEFT 43% is a clean softly lit warm off-white plaster wall, no objects above desk height, intentionally calm and clear for dark HTML heading and navigation to be placed later. The main computer and monitor live on the RIGHT half. Desk sweeps along the bottom, notebook can reach into lower left. Match the reference's sophisticated analog meets digital feeling. The reference contains three website mockups; output ONLY the middle workbench scene as one image. NO TEXT, no letters, no wordmarks, no logos, no navigation, no buttons, no other panels, no borders."
+  },
+  {
+    "site": "gr3ylabs",
+    "asset": "sites/gr3ylabs/assets/images/hero-scene.webp",
+    "bytes": 201240,
+    "provenance": "sites/gr3ylabs/assets/images/hero-scene.webp.json",
+    "prompt": "Create ONE wide landscape photographic hero BACKGROUND image only, matching the MIDDLE gr3ylabs panel of the reference. A warm independent creative technology workbench: striking lime green translucent modular desktop computer tower, brushed aluminum details, monitor showing a simple green sculptural abstract object with NO readable text, actual keyboard, sketch notebook, small potted plant, pencil cup with orange detail, tactile wooden desk and workshop pegboard. Daylight and beautiful believable material detail, cinematic design studio still life. Wide 16:9 composition. The LEFT 43% is a clean softly lit warm off-white plaster wall, no objects above desk height, intentionally calm and clear for dark HTML heading and navigation to be placed later. The main computer and monitor live on the RIGHT half. Desk sweeps along the bottom, notebook can reach into lower left. Match the reference's sophisticated analog meets digital feeling. The reference contains three website mockups; output ONLY the middle workbench scene as one image. NO TEXT, no letters, no wordmarks, no logos, no navigation, no buttons, no other panels, no borders."
+  },
+  {
+    "site": "gr3y-io",
+    "asset": "sites/gr3y-io/assets/images/hero-scene-960.webp",
+    "bytes": 74882,
+    "provenance": "sites/gr3y-io/assets/images/hero-scene-960.webp.json",
+    "prompt": "Create ONE wide landscape editorial photographic hero BACKGROUND image only, matching the BOTTOM gr3y.io panel of the reference. Warm candid scene of a curly-haired man with glasses and an East Asian woman in her thirties concentrating together over a laptop at a light wooden desk in a calm, naturally lit workplace, leafy courtyard and generous window light behind them. These are fictional illustrative people, not portraits of real employees. Natural comfortable knit clothing in blue, realistic hands and laptop interaction, believable unposed expressions. Wide 16:9 composition. People and laptop entirely in the RIGHT 55% of frame. Keep LEFT 40% as an uncluttered softly lit pale sky-blue wall or naturally blue shaded interior, calm negative space for dark HTML headline, navigation and button later. Match reference warmth, natural light and human-centered composition. Output ONLY this bottom photographic scene, expanded full bleed, not a collage. NO TEXT, no letters, no wordmarks, no logos, no navigation, no buttons, no other panels, no borders."
+  },
+  {
+    "site": "gr3y-io",
+    "asset": "sites/gr3y-io/assets/images/hero-scene.webp",
+    "bytes": 173578,
+    "provenance": "sites/gr3y-io/assets/images/hero-scene.webp.json",
+    "prompt": "Create ONE wide landscape editorial photographic hero BACKGROUND image only, matching the BOTTOM gr3y.io panel of the reference. Warm candid scene of a curly-haired man with glasses and an East Asian woman in her thirties concentrating together over a laptop at a light wooden desk in a calm, naturally lit workplace, leafy courtyard and generous window light behind them. These are fictional illustrative people, not portraits of real employees. Natural comfortable knit clothing in blue, realistic hands and laptop interaction, believable unposed expressions. Wide 16:9 composition. People and laptop entirely in the RIGHT 55% of frame. Keep LEFT 40% as an uncluttered softly lit pale sky-blue wall or naturally blue shaded interior, calm negative space for dark HTML headline, navigation and button later. Match reference warmth, natural light and human-centered composition. Output ONLY this bottom photographic scene, expanded full bleed, not a collage. NO TEXT, no letters, no wordmarks, no logos, no navigation, no buttons, no other panels, no borders."
+  }
+]

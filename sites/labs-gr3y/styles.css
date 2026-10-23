@@ -7,7 +7,7 @@
   --bg3: #12121f;
   --border: rgba(255,255,255,0.08);
   --text: #e8e8f0;
-  --muted: #6b6b8a;
+  --muted: #a3a3bd;
   --accent: #7c6dfa;
   --accent2: #4facfe;
   --green: #00d4a0;
@@ -433,7 +433,7 @@ a { text-decoration: none; color: inherit; }
   color: #fff;
   margin: 36px 0 12px;
 }
-/* Subheadings inside a numbered section — smaller and tighter to the section
+/* Subheadings inside a numbered section â€” smaller and tighter to the section
    above them, so they read as part of it rather than as a new section. */
 .legal-page h3 {
   font-size: 1rem;
@@ -459,3 +459,30 @@ a { text-decoration: none; color: inherit; }
   .footer-inner { flex-direction: column; text-align: center; }
   .footer-links { justify-content: center; }
 }
+
+/* Accessible navigation and motion, including pages without JavaScript. */
+a:focus-visible { outline: 2px solid var(--accent2); outline-offset: 5px; }
+section[id] { scroll-margin-top: 140px; }
+.footer-links { flex-wrap: wrap; }
+@media (max-width: 768px) {
+  .nav-inner { flex-wrap: wrap; gap: 8px; }
+  .nav-links { display: flex; flex-wrap: wrap; gap: 0 16px; width: 100%; }
+  .nav-links a { display: inline-flex; align-items: center; min-height: 44px; }
+  .hero { padding-top: 180px; }
+  .legal-page { padding-top: 200px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .glow, .scroll-indicator span, .blink { animation: none; }
+  .btn-primary { transition: none; }
+  .btn-primary:hover { transform: none; }
+}
+
+/* Family refinement: solid emphasis and quieter surfaces. */
+.gradient-text, .footer-logo, .logo, .stat-num {
+  background: none; -webkit-text-fill-color: currentColor; color: var(--text);
+}
+.gradient-text { color: var(--accent2); }
+.grid-overlay { display: none; }
+.btn-primary { background: #b9dfff; color: #101725; }
+.btn-primary:hover { opacity: 1; background: #d4ebff; }

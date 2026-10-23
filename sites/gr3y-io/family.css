@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+/* Shared gr3y typography and interaction treatment; site palettes stay local. */
+body { font-family: 'DM Sans', 'Segoe UI', sans-serif; }
+h1, h2, h3, .logo, .site-title { font-family: 'Manrope', 'Segoe UI', sans-serif; }
+h1 { overflow-wrap: anywhere; letter-spacing: -.04em; text-wrap: balance; }
+h2, h3 { letter-spacing: -.025em; text-wrap: balance; }
+a { text-underline-offset: .22em; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; }
+nav a, nav button, .footer-links a, .menu-toggle, .mobile-toggle { min-height: 44px; display: inline-flex; align-items: center; }
+img { max-width: 100%; }
+@media (max-width: 480px) {
+  h1 { font-size: clamp(2.6rem, 10.5vw, 3.5rem); }
+  .footer-links { flex-wrap: wrap; }
+}

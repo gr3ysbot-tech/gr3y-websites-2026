@@ -6,6 +6,8 @@
 <title>Domain Tools &laquo; JulianBen.com</title>
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../family.css">
+<meta name="description" content="Domain Tools « JulianBen.com">
 </head>
 <body>
 <header>
@@ -14,19 +16,20 @@
   <nav><a href="../index.html">&larr; All Posts</a></nav>
 </header>
 <main class="tool-main">
+  <h1>Domain Tools</h1>
   <form class="tool-form" id="lookupForm">
     <div class="tool-form-row">
-      <input class="tool-input" type="text" id="domainInput" placeholder="example.com" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <input class="tool-input" type="text" id="domainInput" aria-label="Domain name" placeholder="example.com" autocomplete="off" autocapitalize="off" spellcheck="false">
       <button class="tool-submit" type="submit" id="submitBtn">Look up</button>
     </div>
     <button type="button" class="advanced-toggle" id="advancedToggle">DKIM selector not detected automatically? Override it</button>
     <div class="advanced-row" id="advancedRow" hidden>
       <span class="advanced-label">selector._domainkey.&lt;domain&gt;</span>
-      <input class="selector-input" type="text" id="selectorInput" placeholder="e.g. google, s1, mandrill" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <input class="selector-input" type="text" id="selectorInput" aria-label="DKIM selector" placeholder="e.g. google, s1, mandrill" autocomplete="off" autocapitalize="off" spellcheck="false">
     </div>
   </form>
 
-  <div class="error-box" id="errorBox" hidden></div>
+  <div class="error-box" id="errorBox" role="alert" hidden></div>
   <div id="results"></div>
 
   <p class="static-note">
