@@ -29,3 +29,6 @@ Manrope headings and marks; DM Sans body text; native monospace for code. Headin
 
 ## Content and delivery
 Keep article text, existing claims and legal policies. Preserve independent domains and publishing folders. Shared CSS is copied into each site rather than referenced across deployment roots. Fonts use Google Fonts with system fallbacks, consistent with the existing company sites. Root preview designs remain separate.
+
+## ScanProtectAI scene update
+ScanProtectAI now joins the image-led family with self-hosted Instrument Sans, a sage photographic technician workspace, forest-green workflow section, and light reading surfaces. Product prose and protected support/manual URLs are preserved. Navigation and FAQ disclosures work without scripts. Only same-origin fonts were added to its existing content security policy; scripts and connections remain disabled. Responsive WebP assets and prompt sidecars ship under sites/scanprotectai/assets/images/.
