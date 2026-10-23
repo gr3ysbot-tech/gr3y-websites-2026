@@ -1,5 +1,9 @@
 # gr3y family design
 
+## Current typography
+The user rejected the Bricolage lettering. The three primary sites now use self-hosted Instrument Sans across headings, body, and navigation. Display weight 500, body 400, brand 600 with a 400-weight suffix. Heading tracking is -0.025em and line height 1.1–1.12; navigation and buttons use moderate weights. This supersedes all earlier Bricolage and DM Sans descriptions for the main sites. Existing font files are retained as historical assets but are not loaded by the redesigned pages.
+
+
 ## Approved scene direction
 The user approved the three generated image-led concepts with “great. do those.” The current homepages reproduce those compositions with real HTML headings, buttons, and navigation over separate illustrative raster assets. Capital uses the blue architectural atrium; Labs uses a tactile hardware workbench; IT support uses a warm fictional workplace scene. Desktop imagery fills the hero; mobile separates readable copy from a subject-focused image crop. Scene-specific rules are in assets/scene-heroes.css. Responsive WebP images are under each site's assets/images/, with generation prompts in adjacent JSON provenance sidecars. Footer notes identify the scenes as illustrative. This scene direction supersedes the solid-color hero treatment described below.
 

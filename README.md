@@ -91,3 +91,5 @@ The three primary sites now use new layouts and self-hosted fonts through assets
 ### Approved scene heroes
 
 The three main homepages now implement the user-approved architectural, workbench, and workplace scenes. assets/scene-heroes.css supplies the overlay and mobile crop behavior; each site ships its own optimized assets/images/hero-scene.webp and hero-scene-960.webp. Adjacent JSON files retain generation prompts. All headings and controls are HTML. The approved mockup and asset manifest are retained in .impeccable/. No publication or domain changes are included.
+
+Typography correction: the main three sites now load self-hosted Instrument Sans, with lighter display weights and more open tracking. Font licensing is retained beside the local font asset.
