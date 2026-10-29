@@ -94,4 +94,4 @@ The three main homepages now implement the user-approved architectural, workbenc
 
 Typography correction: the main three sites now load self-hosted Instrument Sans, with lighter display weights and more open tracking. Font licensing is retained beside the local font asset.
 
-ScanProtectAI now uses scene-site.css, a generated illustrative workstation hero, and local Instrument Sans. The page remains static and script-free, with its existing protected support and manual destinations. Publish with `python scripts/publish_site.py scanprotectai --publish` after the normal read-only review.
+ScanProtectAI now uses styles.css with a charcoal and blue design and a clearly labelled fictional helpdesk workspace preview, following the owner-supplied dark interface reference. The previous scene assets remain retained. The page stays static and script-free, and preserves protected support/manual destinations, family links and its existing domain. Publish with `python scripts/publish_site.py scanprotectai --publish` after the normal read-only review.
